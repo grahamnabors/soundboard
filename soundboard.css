@@ -1,0 +1,852 @@
+* {
+	font-family: Times New Roman, serif;
+	font-size: 18px;
+}
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+  background-image: url("https://media.giphy.com/media/TNWf9zvueirYY/giphy.gif"); 
+}
+
+/* @font-face {
+  font-family: neon;
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
+} 
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.neon {
+  font-family: neon;
+  color: #FB4264;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #F40A35;
+}
+
+.flux {
+  font-family: neon;
+  color: #426DFB;
+  font-size: 9vw;
+  line-height: 9vw;
+  text-shadow: 0 0 3vw #2356FF;
+}
+
+.neon {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #FA1C16, 0 0 3vw #FA1C16, 0 0 10vw #FA1C16, 0 0 10vw #FA1C16, 0 0 .4vw #FED128, .5vw .5vw .1vw #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #800E0B, 0 0 1.5vw #800E0B, 0 0 5vw #800E0B, 0 0 5vw #800E0B, 0 0 .2vw #800E0B, .5vw .5vw .1vw #40340A;
+    color: #806914;
+  }
+}
+
+.flux {
+  animation: flux 2s linear infinite;
+  -moz-animation: flux 2s linear infinite;
+  -webkit-animation: flux 2s linear infinite;
+  -o-animation: flux 2s linear infinite;
+}
+
+@keyframes flux {
+  0%,
+  100% {
+    text-shadow: 0 0 1vw #1041FF, 0 0 3vw #1041FF, 0 0 10vw #1041FF, 0 0 10vw #1041FF, 0 0 .4vw #8BFDFE, .5vw .5vw .1vw #147280;
+    color: #28D7FE;
+  }
+  50% {
+    text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
+    color: #146C80;
+  }
+} */
+
+/* END NEON FLUX */
+
+/* body {
+	background-image: url("https://media.giphy.com/media/TNWf9zvueirYY/giphy.gif");
+	
+}*/
+
+h2 {
+	font-size: 32px !important;
+	text-align: center;
+	color: chartreuse;
+	font-weight: bolder;
+}
+
+h3 {
+	font-size: 20px !important;
+	text-align: center;
+	color: red;
+}
+
+h3:hover {
+	color: blue;
+	}
+	
+/* START OF DIVS */	
+#maindiv {
+background-color: black;
+display: inline-block;
+border: none;
+border-radius: 12px;
+}
+
+#pinkdiv {
+	
+background-color: #FE8383;
+width: 200px;
+height: 50px;
+border: none;
+border-radius: 12px 0px 0px 0px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+float: left;
+}
+
+#pinkdiv:hover {
+    background-color: #FE8383;
+    color: black;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* END OF DIVS */
+
+/* START OF PINK BUTTONS */
+
+#AreWeHavingFunYet1 {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#AreWeHavingFunYet1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#GoodDaySir1 {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#GoodDaySir1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#InTheComputer1 {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#InTheComputer1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Wow1 {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#Wow1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Windows {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#Windows:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#ItWasAJoke1 {
+background-color: #FE8383;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+#ItWasAJoke1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*END OF PINK BUTTONS */
+
+/* START OF BLUE BUTTONS */
+
+#DamnSon1 {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#DamnSon1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#GuhHuh1 {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#GuhHuh1:hover {
+    background-image: url("http://i.imgur.com/NVNh57v.png");
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#NoSoupForYou1 {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#NoSoupForYou1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#BrutalSavageRekt1 {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#BrutalSavageRekt1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Mondays1 {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#Mondays1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#X-GamesMode {
+background-color: lightblue;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#X-GamesMode:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* END OF BLUE BUTTONS */
+
+/* START OF YELLOW BUTTONS */
+
+#DoIt1 {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#DoIt1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#JustDoIt1 {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#JustDoIt1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#OhWait1 {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#OhWait1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#SHEEEEIIIIT1 {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#SHEEEEIIIIT1:hover {
+    background-color: #4CAF50;
+    color: white;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#WhatWouldYouSay1 {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#WhatWouldYouSay1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#GodAndAnime {
+background-color: #FEE568;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#GodAndAnime:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* END YELLOW BUTTONS */
+
+/* START PURPLE BUTTONS */
+
+#OhMyGah1 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#OhMyGah1:hover {
+    background-image: url("http://i.imgur.com/H7z2DPO.png");
+    color: red;
+	font-size: 22px !important;
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#HolyShitMegaShark1 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#HolyShitMegaShark1:hover {
+    background-color: #4CAF50;
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Rrrhhh1 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#Rrrhhh1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#DangerZone1 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#DangerZone1:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Placeholder3 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#Placeholder3:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Placeholder6 {
+background-color: #e9d1ff;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#Placeholder6:hover {
+    background-color: #4CAF50;
+    color: white;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* END OF PURPLE BUTTONS */
+
+/* START OF RED BUTTONS */
+
+#IveContainedMyRage1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#IveContainedMyRage1:hover {
+    background-color: #4CAF50;
+    color: #FF0000;
+	font-size: 22px !important;
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#IAmUntethered1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#IAmUntethered1:hover {
+    background-image: url("http://i.imgur.com/krQeGxi.png");
+    color: #FF0000;
+	font-weight: bolder;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#MichaelScottNo1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#MichaelScottNo1:hover {
+    background-color: #4CAF50;
+     color: #FF0000;
+	font-weight: bolder;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#WTFRichard1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#WTFRichard1:hover {
+    background-image: url("http://i.imgur.com/NVNh57v.png");
+    border-style: solid;
+	border-color: red;
+	border-width: 5px;
+	color: #FF0000;
+	font-weight: bolder;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#MarkRant1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#MarkRant1:hover {
+    background-image: url("http://i.imgur.com/NVNh57v.png");
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+    color: red;
+	font-size: 22px !important;
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#Placeholder11 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#Placeholder11:hover {
+    background-color: #4CAF50;
+    color: red;
+	font-size: 22px !important;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#IJustWantToDie1 {
+background-color: #FF0000;
+width: 200px;
+height: 90px;
+border: none;
+border-radius: 12px;
+padding: 10px 10px 10px 10px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+#IJustWantToDie1:hover {
+    background-color: #4CAF50;
+    color: red;
+	font-size: 22px !important;
+	font-weight: bolder;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* END OF RED BUTTONS */
